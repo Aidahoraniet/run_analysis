@@ -1,0 +1,33 @@
+
+# Run_analysis variables
+file_test: data frame with the content of the table X_test.txt
+file_train: data frame with the content of the table X_train.txt
+file_test_train: data frame merging the training and the test sets to create one data set.
+file_features: data frame with the content of the table features.txt
+feature_names: vector containing the features.txt
+mean_file: character vector with the column names containing "mean"
+std_file: character vector with the column names containig "std"
+relevant_columns: character vector containing both std_file and mean_file
+file_mean_std: data frame with the file_test_train columns containing "std" or "mean"
+y_test: data frame with the content of y_test.txt
+y_train: data frame with the content of y_train.txt
+act_column: data frame merging y_test and y_train
+final_table: data frame containing the mean and std variables including the activity numbers
+subject_train: data frame with the content of subject_train.txt
+subject_test: data frame with the content of subject_test.txt
+subject_column: data frame merging subject_train and subject_test
+final_table2: final_table plus the subject identifier column
+final_table3: final_table2 gathering all the variables.
+data_grouped: final_table3 grouped by Subject,Activity and variable
+final_table4: summarize data_grouped by the mean calculation for each variable,subject and activity.
+
+# txt files content
+features.txt: List of all features.
+activity_labels.txt: Links the class labels with their activity name.
+train/X_train.txt: Training set.
+train/y_train.txt: Training labels.
+test/X_test.txt: Test set.
+test/y_test.txt: Test labels.
+test/subject_train.txt: Subject identifiers
+train/subject_test.txt: Subject identifiers.
+activity_labels: Activity codes.
