@@ -9,7 +9,7 @@ run_analysis.R contains the R code in order to do the following (in the context 
 4.Appropriately labels the data set with descriptive variable names. 
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-#Raw data
+##Raw data
 In order to run the code you must have the following files in your working directory (provided on the course project site of Coursera):
 "X_test.txt"
 "X_test.txt"
@@ -20,7 +20,7 @@ In order to run the code you must have the following files in your working direc
 "subject_train.txt"
 "subject_test.txt"
 
-#Tidy set
+##Tidy set
 The result file is the final_table4, containing a tidy data set as per the instructions above.
 All the intermediary steps are commented in detail in the R code.
 
